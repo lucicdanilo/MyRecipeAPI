@@ -12,7 +12,7 @@ dotenv.config();
 
 // DB connect
 mongoose.connect(
-    process.env.DB_CONNECT, {
+    'mongodb+srv://admin123:admin123@cluster0-m62ke.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true },
     () => console.log('DB connected!')
