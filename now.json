@@ -3,27 +3,27 @@
   "builds": [{ "src": "index.js", "use": "@now/node-server"}],
   "routes": [
     {
-      "src": "/register",
+      "src": "/api/user/register",
       "dest": "auth.js",
       "methods": ["POST"]
     },
     {
-      "src": "/postrecipe",
+      "src": "/api/user/postrecipe",
       "dest": "auth.js",
       "methods": ["POST"]
     },
     {
-      "src": "/getrecipe",
+      "src": "/api/user/getrecipe",
       "dest": "auth.js",
       "methods": ["POST"]
     },
     {
-      "src": "/getid",
+      "src": "/api/user/getid",
       "dest": "auth.js",
       "methods": ["POST"]
     },
     {
-      "src": "/login",
+      "src": "/api/user/login",
       "dest": "auth.js",
       "methods": ["POST"]
     }
