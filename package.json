@@ -1,12 +1,12 @@
 {
   "name": "myrecipeapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is API for creating your collection of cooking recipes",
   "main": "index.js",
   "scripts": {
     "build": "nodemon index.js"
   },
-  "author": "",
+  "author": "Danilo Lučić",
   "license": "ISC",
   "dependencies": {
     "@hapi/joi": "^15.0.3",
