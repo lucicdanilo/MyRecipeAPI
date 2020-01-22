@@ -10,6 +10,9 @@ https://myrecipeapi.glitch.me
 
 ## Instructions 
 
+First you should connect to MongoDB. In .env file you can paste connection string in DB_CONNECT.
+And you can add random string to the TOKEN_SECRET variable for encripting password.
+
 #### Registration 
 
 For registration you send POST request to this link: 
